@@ -41,7 +41,7 @@ class GAMU_RedBridge extends GAMU_RedBridge_Base {
 	 *
 	 * @var string
 	 */
-	protected $google_ua = "UA-24939930-1";
+	protected $google_ua = "_PUT_YOUR_GOOGLE_UA_ID_HERE_";
 
 	/**
 	 * Active Currently Viewed Domain
@@ -64,7 +64,6 @@ class GAMU_RedBridge extends GAMU_RedBridge_Base {
 	 * @return string
 	 */
 	function get_google_ua() {
-		//$google_ua = "UA-24939930-1";
 		return $this->google_ua;
 	}
 
