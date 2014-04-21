@@ -12,11 +12,15 @@ Google Analytics for WordPress Multisite Network using mapped domains. Version 1
 
 <em>Warning: this is a global insert. Individual sites/domains/installs will not be able to add a custom Google UA.</em>
 
-<h4>More Information</h4>
+## To Use:
+
+Update plugin file with your own Google Analytics ID. Open file `google-analytics-for-multisite-network.php` and replace `_PUT_YOUR_GOOGLE_UA_ID_HERE_`.
+
+#### More Information
 
 Visit the <a href="http://www.redbridgenet.com/">Red Bridge Internet</a> site for more information about <a href="http://www.redbridgenet.com/google-analytics-for-multisite-network/">Google Analytics for Multisite Network</a> plugin.
 
-<h4>Resources</h4>
+#### Resources
 
 <a href="https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingSite">Tracking Multiple Domains - Web Tracking (ga.js)</a>
 
